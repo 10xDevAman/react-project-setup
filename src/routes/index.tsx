@@ -1,6 +1,6 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute } from "@tanstack/react-router";
 
-export const Route = createFileRoute('/')({ component: Home })
+export const Route = createFileRoute("/")({ component: Home });
 
 function Home() {
   return (
@@ -19,5 +19,5 @@ function Home() {
         ), crafted from the ChaiCode Web Dev Cohort 2026.
       </p>
     </div>
-  )
+  );
 }
